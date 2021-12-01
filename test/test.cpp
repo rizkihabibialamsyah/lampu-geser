@@ -1,6 +1,6 @@
 #include "pch.h"
-#include "C:\my-data\Semester-7\EL4121 Perancangan Sistem Embedded\Tugas\Tugas 7\13218080-source-code-tugas7\fsm\fsm.h"
-#include "C:\my-data\Semester-7\EL4121 Perancangan Sistem Embedded\Tugas\Tugas 7\13218080-source-code-tugas7\fsm\fsm.c"
+#include "..\fsm\fsm.h"
+#include "..\fsm\fsm.c"
 
 TEST(FSM_Debounce, ButtonNotPressed) {
 	int state = STATE_DEBOUNCE_LOW_STABLE;
